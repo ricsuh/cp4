@@ -28,6 +28,15 @@
    </nav>
    </div>
    <router-view/>
+
+   <div class="footer">
+      <hr/><hr/><br/>
+      <a class="link" href="https://github.com/ercsuh/cp4">
+         MY GITHUB
+      </a>
+      <br/>
+      CS 260: Creative Project 4
+   </div>
 </div>
 </template>
 
@@ -47,5 +56,18 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+/* Footer */
+.footer {
+   clear: both;
+   bottom:0;
+   text-align: center;
+   padding: 10px;
+   /* padding-bottom: 100px; */
+}
+
+.link, .link:hover {
+   color: black;
 }
 </style>
